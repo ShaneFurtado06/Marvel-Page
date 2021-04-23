@@ -1,0 +1,106 @@
+.header{
+    border:solid;
+    color:black;
+    background-color:red;
+    display:flex ;
+    display: flex ;
+    justify-content: space-between;
+}
+.Hheader{
+    border:solid;
+    color:black;
+    background-color:yellow;
+    display:flex ;
+    display: flex ;
+    justify-content: space-between;
+}
+.intro{
+    background-color: chocolate;
+    border:solid;
+    color:black;
+}
+.phaseA{
+    border:solid;
+    color:black;
+    background-color: blue;
+}
+.phaseB{
+    border:solid;
+    color:black;
+    background-color: red;
+}
+
+.avengers{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.avenger{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+.info{
+    justify-content: space-evenly;
+}
+.aA{
+    background-color: blue;
+    border:solid;
+    color:black;
+    /*border-radius: 40px;*/
+    border-width: 2px;
+    /*font-family: 'Courier New', Courier, monospace;*/
+}
+.aB{
+    background-color: red;
+    border:solid;
+    color:black;
+    border-width: 2px;
+}
+
+.guardians{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.guardian{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.gA{
+    background-color: blue;
+    border:solid;
+    color:black;
+    border-width: 2px;
+}
+.gB{
+    background-color: red;
+    border:solid;
+    color:black;
+    border-width: 2px;
+}
+
+.others{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}    
+.other{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.oA{
+    background-color: blue;
+    border:solid;
+    color:black;
+    border-width: 2px;
+}
+.oB{
+    background-color: red;
+    justify-content: space-between;
+    border:solid;
+    color:black;
+    border-width: 2px;
+}
