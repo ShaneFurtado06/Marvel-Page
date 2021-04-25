@@ -19,7 +19,7 @@
 .name h1{
     font-size: 45px;
 
-    margin-left: -230px;
+    margin-left: -370px;
     margin-top: 50px;
 }
 
@@ -37,9 +37,15 @@
 
 .menu a{
     font-size: 20px;
-
+    text-decoration: none;    
     margin-top: 2px;
     margin-left: 10px;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
 }
 
 
@@ -61,6 +67,7 @@
     margin-left: -2.5px;
 
     background-color: rgb(51, 102, 255);
+
 }
 .phaseB{
     border:solid;
@@ -112,16 +119,37 @@
     justify-content: space-evenly;
 }
 
-.image{
+.A img{
     border: solid;
-    color:black
+    border-width: 4px;
+    color: black;
 }
 
-.info{
+.B img{
     border: solid;
-    color:black;
+    border-width: 4px;
+    color: black;
 }
 
+.A a{
+    opacity:1;
+}
+.A:hover {
+    opacity: 0.9;
+    border:solid;
+    border-color:black;
+    transform: scale(1.2);
+}
+
+.B a{
+    opacity:1;
+}
+.B:hover {
+    opacity: 0.9;
+    border:solid;
+    border-color:black;
+    transform: scale(1.2);
+}
 
 .others{
     display:flex;
@@ -136,24 +164,29 @@
 }
 .oA{
     background-color: blue;
-    border:solid;
-    color:black;
     border-width: 2px;
     justify-content: space-evenly;
 }
 .oB{
     background-color: red;
     justify-content: space-between;
-    border:solid;
-    color:black;
     border-width: 2px;
 }
-
-.A a{
+.oA a{
     opacity:1;
 }
-.A hover:p{
-    opacity:0.5;
+.oA:hover {
+    opacity: 0.9;
     border:solid;
-    color:black
+    border-color:black;
+    transform: scale(1.2);
+}
+.oB a{
+    opacity:1;
+}
+.oB:hover {
+    opacity: 0.9;
+    border:solid;
+    border-color:black;
+    transform: scale(1.2);
 }
